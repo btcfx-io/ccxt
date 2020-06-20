@@ -96,6 +96,7 @@ class Exchange {
         'braziliex',
         'btcalpha',
         'btcbox',
+        'btcfx',
         'btcmarkets',
         'btctradeim',
         'btctradeua',
