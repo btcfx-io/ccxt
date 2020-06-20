@@ -25,12 +25,12 @@ from ccxt.base.decimal_to_precision import TRUNCATE
 from ccxt.base.decimal_to_precision import TICK_SIZE
 
 
-class hbtc(Exchange):
+class btcfx(Exchange):
 
     def describe(self):
-        return self.deep_extend(super(hbtc, self).describe(), {
-            'id': 'hbtc',
-            'name': 'HBTC',
+        return self.deep_extend(super(btcfx, self).describe(), {
+            'id': 'btcfx',
+            'name': 'btcfx',
             'countries': ['CN'],
             'rateLimit': 2000,
             'version': 'v1',
@@ -77,17 +77,17 @@ class hbtc(Exchange):
             'urls': {
                 'logo': 'https://user-images.githubusercontent.com/51840849/80134449-70663300-85a7-11ea-8942-e204cdeaab5d.jpg',  # 交易所LOGO
                 'api': {
-                    'quote': 'https://api.hbtc.com/openapi/quote',  # 市场API数据端点
-                    'contract': 'https://api.hbtc.com/openapi/contract',  # 合约API数据端点
-                    'option': 'https://api.hbtc.com/openapi/option',  # 合约API数据端点
-                    'public': 'https://api.hbtc.com/openapi',  # 公共API数据端点
-                    'private': 'https://api.hbtc.com/openapi',  # 私有API数据端点
-                    'zendesk': 'https://hbtc.zendesk.com/hc/en-us',
+                    'quote': 'https://api.btcfx.io/openapi/quote',  # 市场API数据端点
+                    'contract': 'https://api.btcfx.io/openapi/contract',  # 合约API数据端点
+                    'option': 'https://api.btcfx.io/openapi/option',  # 合约API数据端点
+                    'public': 'https://api.btcfx.io/openapi',  # 公共API数据端点
+                    'private': 'https://api.btcfx.io/openapi',  # 私有API数据端点
+                    'zendesk': 'https://support.btcfx.io/hc/ja',
                 },
-                'www': 'https://www.hbtc.com',  # 公司主页
-                'referral': 'https://www.hbtc.com/register/O2S8NS',  # 邀请链接
-                'doc': 'https://github.com/bhexopen/BHEX-OpenApi/tree/master/doc',  # openapi文档地址
-                'fees': 'https://hbtc.zendesk.com/hc/zh-cn/articles/360009274694',  # 费率介绍
+                'www': 'https://www.btcfx.io/',  # 公司主页
+                'referral': 'https://www.btcfx.io/register',  # 邀请链接
+                'doc': 'https://github.com/btcfx-io',  # openapi文档地址
+                'fees': 'https://support.btcfx.io/hc/en-us/articles/360045968313-Trading-Rules',  # 费率介绍
             },
             'api': {
                 'public': {

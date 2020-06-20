@@ -102,6 +102,7 @@ from ccxt.bleutrade import bleutrade                        # noqa: F401
 from ccxt.braziliex import braziliex                        # noqa: F401
 from ccxt.btcalpha import btcalpha                          # noqa: F401
 from ccxt.btcbox import btcbox                              # noqa: F401
+from ccxt.btcfx import btcfx                                # noqa: F401
 from ccxt.btcmarkets import btcmarkets                      # noqa: F401
 from ccxt.btctradeim import btctradeim                      # noqa: F401
 from ccxt.btctradeua import btctradeua                      # noqa: F401
@@ -143,7 +144,6 @@ from ccxt.ftx import ftx                                    # noqa: F401
 from ccxt.fybse import fybse                                # noqa: F401
 from ccxt.gateio import gateio                              # noqa: F401
 from ccxt.gemini import gemini                              # noqa: F401
-from ccxt.hbtc import hbtc                                  # noqa: F401
 from ccxt.hitbtc import hitbtc                              # noqa: F401
 from ccxt.hollaex import hollaex                            # noqa: F401
 from ccxt.huobipro import huobipro                          # noqa: F401
@@ -228,6 +228,7 @@ exchanges = [
     'braziliex',
     'btcalpha',
     'btcbox',
+    'btcfx',
     'btcmarkets',
     'btctradeim',
     'btctradeua',
